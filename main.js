@@ -9,7 +9,7 @@ function furryize() {
     if (match === 'r') {
       return inputBox.value.match(/[RL]/) ? 'R' : 'w';
     } else if (match === 'l') {
-      return inputBox.value.match(/[RL]/) ? 'L' : 'W';
+      return inputBox.value.match(/[RL]/) ? 'L' : 'w';
     }
   });
 
