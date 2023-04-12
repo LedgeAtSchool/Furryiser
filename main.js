@@ -4,13 +4,7 @@ function furryize() {
   const furryText = document.getElementById("furrytext");
 
   // Replace "r" and "l" with "w", and "R" and "L" with "W"
-  let text = inputBox.value.replace(/[rlRL]/g, (match) => {
-    if (match === 'r' || match === 'l') {
-      return 'w';
-    } else if (match === 'R' || match === 'L') {
-      return 'W';
-    }
-  });
+  let text = inputBox.value.replace(/[rl]/g, "w").replace(/[RL]/g, "W");
 
   // Replace all "." characters with "~"
   text = text.replace(/\./g, "~");
