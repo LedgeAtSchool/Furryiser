@@ -21,3 +21,4 @@ function furryize() {
   // Set the text of the furrytext element to the furryfied text
   furryText.textContent = text;
 }
+// Why tf is this missing???
