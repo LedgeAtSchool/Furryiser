@@ -15,8 +15,14 @@ function furryize() {
   // Add "owo" before each question mark
   text = text.replace(/\?/g, " owo?");
 
-  // Add " ^w^" after each exclamation mark
-  text = text.replace(/!/g, " ^w^");
+  // Replace ";)" with ";3"
+  text = text.replace(/;\)g, ";3");
+  
+  // Replace ";)" with ";3"
+  text = text.replace(/;\)/g, ";3");
+  
+  // Replace ":(" with "3:"
+  text = text.replace(/:\(/g, "3:");
 
   // Set the text of the furrytext element to the furryfied text
   furryText.textContent = text;
