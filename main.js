@@ -18,6 +18,9 @@ function furryize() {
   // Replace ";)" with ";3"
   text = text.replace(/;\)/g, ";3");
 
+  // Add "^w^" before each exclamation mark
+text = text.replace(/\!/g, " ^w^!");
+  
   // Set the text of the furrytext element to the furryfied text
   furryText.textContent = text;
 }
