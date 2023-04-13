@@ -16,7 +16,7 @@ function furryize() {
   text = text.replace(/\?/g, " owo?");
 
   // Replace ";)" with ";3"
-  text = text.replace(/;/)g, ";3");
+  text = text.replace(/;\)/g, ";3");
 
   // Set the text of the furrytext element to the furryfied text
   furryText.textContent = text;
